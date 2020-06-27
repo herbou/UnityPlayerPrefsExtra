@@ -17,7 +17,7 @@ Use the same syntaxe as PlayerPrefs uses.
 // Set
 
 - PlayerPrefsExtra.SetType(key, myVar);
-# ⬛ Bool :
+# ⬛ Booleans :
 ```c#
 //Load
 bool b = PlayerPrefsExtra.GetBool("mybool", false);
