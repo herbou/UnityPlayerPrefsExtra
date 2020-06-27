@@ -14,6 +14,25 @@ using System.Collections.Generic;
 
 public static class PlayerPrefsExtra
 {
+	#region Bool -----------------------------------------------------------------------------------------
+
+	public static bool GetBool (string key)
+	{
+		return (PlayerPrefs.GetInt (key, 0) == 1) ? true : false;
+	}
+
+	public static bool GetBool (string key, bool defaultValue)
+	{
+		return (PlayerPrefs.GetInt (key, (defaultValue ? 1 : 0)) == 1) ? true : false;
+	}
+
+	public static void SetBool (string key, bool value)
+	{
+		PlayerPrefs.SetInt (key, (value ? 1 : 0));
+	}
+
+	#endregion
+
 	#region Vector 2 -----------------------------------------------------------------------------------------
 
 	public static Vector2 GetVector2 (string key)
