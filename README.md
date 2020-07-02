@@ -73,6 +73,7 @@ PlayerPrefsExtra.SetList("myList", list);
 # ⬛ Objects :
 ```c#
 //Class
+[System.Serializable]
 public class Shape{
 	public int totalPoints = 3;
 	public float strokeWidth = 0f;
