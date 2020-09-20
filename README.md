@@ -17,7 +17,7 @@ Use the same syntaxe as PlayerPrefs uses.
 // Set
 
 - PlayerPrefsExtra.SetType(key, myVar);
-# ⬛ Booleans :
+# ⏹ Booleans :
 ```c#
 //Load
 bool b = PlayerPrefsExtra.GetBool("mybool", false);
@@ -29,7 +29,7 @@ b = !b;
 PlayerPrefsExtra.SetBool("mybool", b);
 ```
 
-# ⬛ Vectors ( Vector2, Vector3, and Vector4 ):
+# ⏹ Vectors ( Vector2, Vector3, and Vector4 ):
 ```c#
 //Load
 Vector2 v = PlayerPrefsExtra.GetVector2("myV2", Vector2.zero);
@@ -41,7 +41,7 @@ v+=Vector2.one;
 PlayerPrefsExtra.SetVector2("myV2", v);
 ```
 
-# ⬛ Colors :
+# ⏹ Colors :
 ```c#
 // Get color
 Color c = PlayerPrefsExtra.GetColor("Col");
@@ -49,7 +49,7 @@ Color c = PlayerPrefsExtra.GetColor("Col");
 // Set color
 PlayerPrefsExtra.SetColor("Col", Color.red);
 ```
-# ⬛ Quaternions :
+# ⏹ Quaternions :
 ```c#
 // Get Quaternion
 Quaternion qua = PlayerPrefsExtra.GetQuaternion("q");
@@ -58,7 +58,7 @@ Quaternion qua = PlayerPrefsExtra.GetQuaternion("q");
 PlayerPrefsExtra.SetQuaternion("q", qua);
 ```
 
-# ⬛ Lists :
+# ⏹ Lists :
 ```c#
 // Get List
 List<float> list = PlayerPrefsExtra.GetList<float>("myList", new List<float>());
@@ -70,7 +70,7 @@ list.Add(Random.Range(100,900);
 PlayerPrefsExtra.SetList("myList", list);
 ```
 
-# ⬛ Objects :
+# ⏹ Objects :
 ```c#
 //Class
 [System.Serializable]
