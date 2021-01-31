@@ -3,7 +3,7 @@
 ![Video thumbnail](https://img.youtube.com/vi/wqRYdFcfiVw/0.jpg)
 
 
-Unity PlayerPrefsExtra gives you more types and complexe data types such as :
+Unity PlayerPrefsExtra gives you the ability to save more complexe data types such as :
 Vectors, Bool, Colors, Lists, ...
 and it uses the Unity's PlayerPrefs behind the scene.
 
