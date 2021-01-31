@@ -16,7 +16,7 @@ Use the same syntaxe as PlayerPrefs uses.
 
 // Get with default value
 
-- myVat = PlayerPrefsExtra.GetType(key, defaultValueIfNotExist);
+- myVar = PlayerPrefsExtra.GetType(key, defaultValueIfNotExist);
 
 // Set
 
