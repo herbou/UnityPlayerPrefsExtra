@@ -10,17 +10,7 @@ and it uses the Unity's PlayerPrefs behind the scene.
 # ⁉ How to use :
 Use the same syntaxe as PlayerPrefs uses.
 
-// Get
 
-- myVar = PlayerPrefsExtra.GetType(key);
-
-// Get with default value
-
-- myVar = PlayerPrefsExtra.GetType(key, defaultValueIfNotExist);
-
-// Set
-
-- PlayerPrefsExtra.SetType(key, myVar);
 ## ■ Booleans :
 ```c#
 //Load
