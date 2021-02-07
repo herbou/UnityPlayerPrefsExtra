@@ -8,7 +8,7 @@ Vectors, Bool, Colors, Lists, ...
 and it uses the Unity's PlayerPrefs behind the scene.
 
 # ⁉ How to use :
-Use the same syntaxe as PlayerPrefs uses.
+Use the same syntaxe as PlayerPrefs.
 
 
 ## ■ Booleans :
