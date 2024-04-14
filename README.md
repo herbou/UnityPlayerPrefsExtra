@@ -5,7 +5,7 @@
 
 Unity PlayerPrefsExtra gives you the ability to save more complexe data types such as :
 Vectors, Bool, Colors, Lists, ...
-and it uses the Unity's PlayerPrefs behind the scene.
+and it uses the Unity's PlayerPrefs under the hood.
 
 # ⁉ How to use :
 Use the same syntaxe as PlayerPrefs.
@@ -85,6 +85,25 @@ s.points.Add(Vector3.one*Random.Range(0f,3f));
 // Save object
 PlayerPrefsExtra.SetObject("myShape", s);
 ```
+
+## ■ Delete All Keys (both PlayerPrefs & PlayerPrefsExtra) :
+use PlayerPrefs instead of PlayerPrefsExtra
+```c#
+PlayerPrefs.DeleteAll();
+```
+
+## ■ Delete one key :
+use PlayerPrefs instead of PlayerPrefsExtra
+```c#
+PlayerPrefs.DeleteKey("Key");
+```
+
+## ■ Check key existance :
+use PlayerPrefs instead of PlayerPrefsExtra
+```c#
+PlayerPrefs.HasKey("Key");
+```
+
 
 <br><br>
 <br>
