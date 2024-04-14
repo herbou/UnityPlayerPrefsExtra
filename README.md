@@ -24,6 +24,7 @@ PlayerPrefsExtra.SetBool("mybool", b);
 ```
 
 <br />
+
 ## ■ Vectors ( Vector2, Vector3, and Vector4 ):
 ```c#
 //Load
@@ -37,6 +38,7 @@ PlayerPrefsExtra.SetVector2("myV2", v);
 ```
 
 <br />
+
 ## ■ Colors :
 ```c#
 // Get color
@@ -47,6 +49,7 @@ PlayerPrefsExtra.SetColor("Col", Color.red);
 ```
 
 <br />
+
 ## ■ Quaternions :
 ```c#
 // Get Quaternion
@@ -57,6 +60,7 @@ PlayerPrefsExtra.SetQuaternion("q", qua);
 ```
 
 <br />
+
 ## ■ Lists :
 ```c#
 // Get List
@@ -70,6 +74,7 @@ PlayerPrefsExtra.SetList("myList", list);
 ```
 
 <br />
+
 ## ■ Objects :
 ```c#
 //Class
@@ -93,6 +98,7 @@ PlayerPrefsExtra.SetObject("myShape", s);
 ```
 
 <br />
+
 ## ■ Delete All Keys (both PlayerPrefs & PlayerPrefsExtra) :
 use PlayerPrefs instead of PlayerPrefsExtra
 ```c#
@@ -100,6 +106,7 @@ PlayerPrefs.DeleteAll();
 ```
 
 <br />
+
 ## ■ Delete one key :
 use PlayerPrefs instead of PlayerPrefsExtra
 ```c#
@@ -107,6 +114,7 @@ PlayerPrefs.DeleteKey("Key");
 ```
 
 <br />
+
 ## ■ Check key existance :
 use PlayerPrefs instead of PlayerPrefsExtra
 ```c#
